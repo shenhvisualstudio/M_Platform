@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+您 Web 项目的发布/打包进程将使用此文件。您可以通过编辑此 MSBuild 文件
+来自定义该进程的行为。若要了解与此相关的详细信息，请访问 http://go.microsoft.com/fwlink/?LinkID=208121。
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>ftp://168.100.1.218/M_Platform</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="App/GetAppList.aspx">
+      <publishTime>02/27/2017 15:32:25</publishTime>
+    </File>
+    <File Include="bin/AndroidPush.dll">
+      <publishTime>02/27/2017 15:32:20</publishTime>
+    </File>
+    <File Include="bin/IPortData.dll">
+      <publishTime>02/27/2017 15:32:26</publishTime>
+    </File>
+    <File Include="bin/leo.dll">
+      <publishTime>02/27/2017 15:32:46</publishTime>
+    </File>
+    <File Include="bin/log4net.dll">
+      <publishTime>02/27/2017 15:32:34</publishTime>
+    </File>
+    <File Include="bin/MMInterface.dll">
+      <publishTime>02/27/2017 15:32:29</publishTime>
+    </File>
+    <File Include="bin/M_Platform.dll">
+      <publishTime>02/22/2018 09:48:39</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>02/27/2017 15:35:38</publishTime>
+    </File>
+    <File Include="bin/Oracle.ManagedDataAccess.dll">
+      <publishTime>02/27/2017 15:34:52</publishTime>
+    </File>
+    <File Include="Device/AddDevice.aspx">
+      <publishTime>02/27/2017 15:32:38</publishTime>
+    </File>
+    <File Include="Encryption/DES_Decrypt.aspx">
+      <publishTime>02/27/2017 15:32:38</publishTime>
+    </File>
+    <File Include="Entrance/ChangePassword.aspx">
+      <publishTime>02/27/2017 15:32:39</publishTime>
+    </File>
+    <File Include="Entrance/GetMobileAuthCode.aspx">
+      <publishTime>02/27/2017 15:32:45</publishTime>
+    </File>
+    <File Include="Entrance/Login.aspx">
+      <publishTime>02/27/2017 15:32:44</publishTime>
+    </File>
+    <File Include="Entrance/Nbw/Login.aspx">
+      <publishTime>02/05/2018 10:09:50</publishTime>
+    </File>
+    <File Include="Entrance/Register.aspx">
+      <publishTime>02/27/2017 15:32:45</publishTime>
+    </File>
+    <File Include="Entrance/RetrievePassword.aspx">
+      <publishTime>02/27/2017 15:32:45</publishTime>
+    </File>
+    <File Include="Entrance/Sys/Login.aspx">
+      <publishTime>04/17/2017 16:17:17</publishTime>
+    </File>
+    <File Include="Entrance/VerifyAuthCode.aspx">
+      <publishTime>02/27/2017 15:32:46</publishTime>
+    </File>
+    <File Include="OA/GetTodayDealedList.aspx">
+      <publishTime>02/27/2017 15:32:47</publishTime>
+    </File>
+    <File Include="OA/GetTodayDealList.aspx">
+      <publishTime>02/27/2017 15:32:47</publishTime>
+    </File>
+    <File Include="Service References/ServiceSendMessage/M_Platform.ServiceSendMessage.sendmessageResponse.datasource">
+      <publishTime>02/27/2017 15:32:49</publishTime>
+    </File>
+    <File Include="ServiceMobile.asmx">
+      <publishTime>02/27/2017 15:32:19</publishTime>
+    </File>
+    <File Include="Test/Test.aspx">
+      <publishTime>02/27/2017 15:32:49</publishTime>
+    </File>
+    <File Include="Test/Test2.aspx">
+      <publishTime>04/17/2017 16:58:37</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>04/17/2017 15:01:56</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
